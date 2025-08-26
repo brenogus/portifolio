@@ -60,3 +60,33 @@ img {
   font-family: "Montserrat", sans-serif ;
 
 }
+
+.container {
+
+  background-color: #EC7600;
+  text-align: center;
+}
+
+.navegacao {
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif ;
+  
+  
+}
+
+.logo {
+  max-height: 10vh;
+  margin: 0.5vw;
+}
+
+footer {
+  margin: 50px;
+}
+
+
