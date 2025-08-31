@@ -5,6 +5,44 @@
   
 }
 
+.container {
+
+  
+  text-align: center;
+}
+
+.header1 {
+  background-color: #EC7600;
+}
+
+.header2 {
+  background-color: #080208;
+  padding: 10px 0; 
+}
+
+.navegacao {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.botoes {
+  border-width: 30px;
+  background-color: #EC7600;
+  border-radius: 16px;
+  text-decoration: none ;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  color: white;
+  border: 2px solid white;
+  
+  
+}
+
 body {
   height: 100vh; /*Altura 100% da viewport*/
   box-sizing: border-box; /* essa propriedade impede que os elementos filhos saiam do elemento pai*/
@@ -59,25 +97,6 @@ img {
   color: #3A0A3C;
   font-family: "Montserrat", sans-serif ;
 
-}
-
-.container {
-
-  background-color: #EC7600;
-  text-align: center;
-}
-
-.navegacao {
-  box-sizing: border-box;
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  font-size: 20px;
-  border-radius: 16px;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif ;
-  
-  
 }
 
 .logo {

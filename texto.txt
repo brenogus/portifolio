@@ -1,7 +1,0 @@
-box-sizing: border-box;
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  font-size: 34px;
-  border-radius: 16px;
-  text-decoration: none;
