@@ -200,3 +200,62 @@ footer {
   box-shadow: 0 8px 16px rgba(0,0,0,0.4);
 }
 
+
+/* ======== RESPONSIVIDADE ======== */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+  .apresentacao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .apresentacao img {
+    max-width: 50%;
+    margin-top: 20px;
+  }
+
+  .apresentacao__conteudo {
+    width: 90%;
+  }
+}
+
+/* Celulares (até 768px) */
+@media (max-width: 768px) {
+  .navegacao {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .botoes {
+    width: 80%;
+    text-align: center;
+  }
+
+  .apresentacao {
+    margin: 20px;
+    flex-direction: column;
+  }
+
+  .apresentacao img {
+    max-width: 80%;
+  }
+
+  .apresentacao__conteudo__titulo {
+    font-size: 24px;
+  }
+
+  .apresentacao__conteudo__texto {
+    font-size: 18px;
+  }
+
+  .galeria__grid {
+    grid-template-columns: 1fr; /* imagens em coluna */
+  }
+
+  .formulario {
+    width: 90%;
+  }
+}
+
