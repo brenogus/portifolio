@@ -29,7 +29,7 @@
 
 .botoes {
   border-width: 30px;
-  background-color: #EC7600;
+  background-color: #0AB52D;
   border-radius: 16px;
   text-decoration: none ;
   padding: 10px;
@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 img {
@@ -67,7 +68,10 @@ img {
     border-radius: 16px;
 }
 .apresentacao__conteudo {
+  display: flex;
   width: 615px;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -108,4 +112,58 @@ footer {
   margin: 50px;
 }
 
+/* ================= PÁGINAS INTERNAS ================= */
+.pagina {
+  margin: 5vw;
+  text-align: center;
+}
+
+.pagina__titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 36px;
+  color: #FFBB00;
+  margin-bottom: 20px;
+}
+
+.pagina__texto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #F6F6F6;
+  margin-bottom: 30px;
+}
+
+/* ================= FORMULÁRIO DE CONTATO ================= */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #EC7600;
+  background-color: #080208;
+  color: #F6F6F6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario button {
+  padding: 12px;
+  background-color: #0AB52D;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #EC7600;
+}
 
